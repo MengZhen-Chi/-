@@ -1,9 +1,11 @@
 # -
 字节跳动作业
+
 1
 App的生命周期：
 Notrunning→Inactive↔Active\Background↔Suspended→Notrunning
               
+
 
 ViewController的生命周期：alloc/init、loadView、viewDidLoad、viewWillAppear、viewDidAppear、viewWillDisappear、viewDidDisppear、dealloc
 
