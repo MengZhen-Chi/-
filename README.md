@@ -43,14 +43,18 @@ Uiscrollview、UITableview、UIColectionview、UIWebview、UIViewController
 
 @interface Student:NSObject{
     @public
+    
     NSString* name;
+    
     NSString* major;
+    
     int age;
 }
 
 #方法
 
 -(void) study:(float) time;
+
 @end
 
 #类的实现
