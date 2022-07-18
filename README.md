@@ -42,6 +42,7 @@ Uiscrollview、UITableview、UIColectionview、UIWebview、UIViewController
 #类的声明
 
 @interface Student:NSObject{
+
     @public
     
     NSString* name;
@@ -60,7 +61,9 @@ Uiscrollview、UITableview、UIColectionview、UIWebview、UIViewController
 #类的实现
 
 @implementation Student
+
 -(void) study:(float) time{
+
 NSLog(@"The study time of the student is %@", time);
 
 @end
