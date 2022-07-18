@@ -1,6 +1,7 @@
 # -
 字节跳动作业
 
+#第一次作业
 1
 App的生命周期：
 Notrunning→Inactive↔Active\Background↔Suspended→Notrunning
@@ -34,3 +35,26 @@ Uiscrollview、UITableview、UIColectionview、UIWebview、UIViewController
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 30.0;
 }
+
+
+#第二次作业
+#类的声明
+@interface Student:NSObject{
+    @public
+    NSString* name;
+    NSString* major;
+    int age;
+}
+#方法
+-(void) study:(float) time;
+@end
+
+#类的实现
+@implementation Student
+-(void) study:(float) time{
+NSLog(@"The study time of the student is %@", time);
+@end
+
+
+
+
