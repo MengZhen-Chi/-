@@ -1,0 +1,28 @@
+#类的声明
+
+@interface 学生：NSObject{
+
+@public
+
+NSString* name;
+
+NSString* major;
+
+int age;
+}
+
+#方法
+
+-（空）研究：（浮动）时间；
+
+@end
+
+#类的实现
+
+@implementation 学生
+
+-（空）研究：（浮动）时间{
+
+NSLog（@“学生的学习时间是%@”，时间）；
+
+@end
